@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">404 Not Found</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank" rel="noopener noreferrer">Devchallenges.io</a>.
@@ -8,10 +8,6 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}" target="_blank" rel="noopener noreferrer">
-      Demo
-    </a> -->
-    <span> | </span>
     <a href="https://{your-url-to-the-solution}" target="_blank" rel="noopener noreferrer">
       Solution
     </a>
@@ -60,5 +56,5 @@ This application/site was made desktop first. Also, this application/site was cr
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
 
-- GitHub [@your-username](https://github.com/rafacalvo)
+- GitHub [@rafacalvo](https://github.com/rafacalvo)
 - Twitter [@rafacalg](https://twitter.com/rafacalg)
