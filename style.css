@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 40px 77px 0 77px;
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 24px 43px;
+  width: 246px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+nav {
+  font-family: 'Inconsolata', monospace;
+}
+
+nav > h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 58px 0;
+}
+
+.left > img {
+  margin: 0;
+  width: 539.22px;
+}
+
+.right {
+  width: 586px;
+  margin: 0 0 0 42px;
+  padding: 0 0 0 42px;
+}
+
+.right > p {
+  text-align: left;
+  width: 400px;
+  margin: 24px 0;
+}
+
+.right > .button {
+  margin-top: 32px;
+}
+
+.attribution {
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.attribution > p {
+  margin: 0;
+}
+
+.attribution > a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    padding: 32px 24px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .nav {
+    margin-bottom: 100px;
+  }
+
+  .hero {
+    width: 100%;
+    margin: 64px 0 54px 0;
+    align-items: center;
+  }
+
+  .left > img {
+    width: 500px;
+  }
+
+  .right {
+    margin: 0;
+    padding: 0;
+  }
+
+  .right > p {
+    text-align: left;
+    width: 100%;
+    margin: 24px 0 48px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 20px 24px 42px 24px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .nav {
+    margin-bottom: 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    margin: 32px 0;
+  }
+
+  .left > img,
+  .right {
+    width: 100%;
+  }
+
+  .right > h1,
+  .right > p {
+    width: 100%;
+  }
+
+  .right > h1 {
+    font-size: 48px;
+  }
+}
