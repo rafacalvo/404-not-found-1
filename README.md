@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}" target="_blank" rel="noopener noreferrer">
+    <a href="https://404-not-found-1.vercel.app/" target="_blank" rel="noopener noreferrer">
       Solution
     </a>
     <span> | </span>
