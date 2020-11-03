@@ -91,6 +91,7 @@ nav > h3 {
 
 .attribution > a {
   color: hsl(228, 45%, 44%);
+  padding-top: 150px;
 }
 
 @media only screen and (max-width: 1024px) {
